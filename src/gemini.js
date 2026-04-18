@@ -6,8 +6,8 @@
 
 const logger = require('./logger');
 
-const GEMINI_TTS_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent';
-const GEMINI_TTS_STREAM_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent';
+const GEMINI_TTS_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-tts-preview:generateContent';
+const GEMINI_TTS_STREAM_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-tts-preview:streamGenerateContent';
 
 // Helper function to delay execution
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
